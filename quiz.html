@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Quiz — SSC Maths</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container">
+    <a href="index.html" class="btn" style="margin-bottom:12px;display:inline-block">← Back</a>
+    <h1 id="title">Loading quiz…</h1>
+    <div id="meta" class="muted"></div>
+
+    <section id="quiz-area"></section>
+
+    <div id="controls" style="margin-top:18px;display:flex;gap:8px;align-items:center">
+      <button id="prev" class="btn ghost">Previous</button>
+      <button id="next" class="btn">Next</button>
+      <div style="margin-left:auto" id="score-area" class="muted"></div>
+    </div>
+
+    <template id="question-tpl">
+      <article class="card question">
+        <p class="muted small" data-qno></p>
+        <h2 data-q></h2>
+        <div data-options></div>
+        <p class="muted small" data-hint style="display:none"></p>
+        <p class="muted small" data-explain style="display:none"></p>
+      </article>
+    </template>
+
+  </main>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

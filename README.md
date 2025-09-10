@@ -1,1 +1,1 @@
-# ssc-003-maths
+# SSC Maths — Fresh Site Bundle\n\nThis bundle contains a simple static site for SSC Maths quizzes.\n\nOpen index.html in a browser or deploy to GitHub Pages.\n
